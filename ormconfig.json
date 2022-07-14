@@ -1,0 +1,12 @@
+{
+  "type": "postgres",
+  "host": "tuffi.db.elephantsql.com",
+  "username": "xbfjliac",
+  "password": "ShH0H6OjnwRaY46xVQifP37k3iPyZ9ZV",
+  "database": "xbfjliac",
+  "entities": ["./src/entities/**.ts"], 
+  "migrations": ["./src/database/migrations/**.ts"],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
